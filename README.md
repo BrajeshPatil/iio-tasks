@@ -3,6 +3,6 @@ An environment was set up using QEMU and libvirt specifically for the developmen
 
 ## Detailed Outputs
 For full logs and outputs, see: 
-- [Dummy Modules Setup](/dummy-modules-compilation.txt)  
-- [IIO Event Monitor](/iio-event-monitor.txt)  
-- [Generic Buffer Testing](/generic-buffer.txt)
+- [Dummy Modules Setup](/dummy-modules-compilation.md)
+- [IIO Event Monitor](/iio-event-monitor.md)
+- [Generic Buffer Testing](/generic-buffer.md)
