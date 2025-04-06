@@ -1,6 +1,6 @@
-# Dummy modules compilation:
+## Dummy modules compilation:
 IIO dummy driver setup was successfully completed by enabling the required kernel configs and compiling the necessary modules. A dummy device was created under configfs to validate events, buffers, and event generation functionality.
-## Task 1
+### Task 1
 ```
 $ grep CONFIG_IIO ${IIO_TREE}/.config
 CONFIG_IIO=y
@@ -19,7 +19,7 @@ CONFIG_IIO_SIMPLE_DUMMY_EVENTS=y
 CONFIG_IIO_SIMPLE_DUMMY_BUFFER=y
 ```
 
-## Task 2
+### Task 2
 Loaded Modules
 ```
 root@localhost:~# lsmod | grep dummy
@@ -84,7 +84,7 @@ lrwxrwxrwx 1 root root    0 Apr  5 19:53 subsystem -> ../../bus/iio
 -rw-r--r-- 1 root root 4096 Apr  5 19:39 uevent
 ```
 
-## Task 3
+### Task 3
 IIO Device Directory
 ```
 root@localhost:~# ls -l /sys/bus/iio/devices/iio:device0/
